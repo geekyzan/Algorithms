@@ -29,3 +29,19 @@ public static ArrayList<Integer> duplicates(int arr[], int n) {
         //dupList.add(-1);
         return dupList;   
     }
+
+//another solution from GFG that prints only one element if an element occurs multiple times.
+//below condition is only true when element occurs another time
+/*if (arr[arr[i] % n] >= n) 
+        { 
+            if (arr[arr[i] % n] < 2 * n)  
+            { 
+                System.out.print( arr[i] % n + " "); 
+                fl = 1; 
+            } 
+        } 
+        arr[arr[i] % n] += n; 
+    } 
+*/
+
+
